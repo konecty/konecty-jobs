@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colorWhite } from './variables';
+import { colorWhite, mediaQueryMobile } from './variables';
 
 const HeaderWrapper = styled.header`
     width:100%;
@@ -26,9 +26,20 @@ const ListNavItem = styled.li`
     margin-right:90px;
 `
 
+const HeaderIconMenu = styled.img`
+    width:30px;
+`
+const HeaderImageLogo = styled.img`
+    ${mediaQueryMobile(`
+        width:160px;
+    `)}
+`
+
 export {
     HeaderWrapper,
     HeaderNav,
     ListNav,
-    ListNavItem
+    ListNavItem,
+    HeaderIconMenu,
+    HeaderImageLogo
 }
