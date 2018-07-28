@@ -1,0 +1,23 @@
+.no-decoration a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 4em!important;
+}
+
+.no-decoration a:hover{
+    color: #fff;
+    text-decoration: none;    
+}
+
+.brand span{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.calipso{
+    color: #fff;
+}
