@@ -1,0 +1,32 @@
+.meuContainer {
+  background-color: rgba(0, 0, 0, 0);
+  min-height: 70vh;
+  color: #fff;
+}
+
+.content strong {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.content small {
+    font-weight: 400!important;
+    font-size: medium;
+}
+
+.content button:last-of-type {
+    border-color: #fff!important;
+    color: #fff;
+}
+
+.content button:last-of-type:hover{
+    background-color: #fff;
+    color: #2c7de7;
+}
+
+@media screen and (max-width: 900px){
+    .align-sm-start {
+        text-align: start;
+        margin-left: 2rem;
+    }
+}

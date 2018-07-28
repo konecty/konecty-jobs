@@ -1,0 +1,9 @@
+@media screen and (max-width: 900px){
+    .text {
+        text-align: start;
+    }
+
+    .title {
+        text-align: start;
+    }
+}
