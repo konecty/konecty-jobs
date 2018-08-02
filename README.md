@@ -49,10 +49,8 @@ In the last year, I've been learning and working with Javascript and Angular. No
 - JavaScript programming
 - CSS proficiency
 - HTML expertise
-- PHP
 - ReactJS
 - Angular
-- Vue
 - Express
 - Nodejs
 - Fullstack
@@ -61,6 +59,17 @@ In the last year, I've been learning and working with Javascript and Angular. No
 - Excellent communication skills
 - Windows and Linux
 - Web platform development
+
+Basics
+
+- PHP
+- Java
+- C#
+- Unity
+- Python
+- Elixir using Phoenix
+- Machine Learning
+- Vue 
 
 ## Work History
 
