@@ -53,6 +53,9 @@ In the last year, I've been learning and working with Javascript and Angular. No
 - ReactJS
 - Angular
 - Vue
+- Express
+- Nodejs
+- Fullstack
 - Workflow analysis
 - Project documentation
 - Excellent communication skills
