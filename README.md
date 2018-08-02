@@ -29,6 +29,8 @@
 
 **E-mail**:  [send email for me](mailto:raphaelkieling98@gmail.com)
 
+**Linkedin:** [Linkedin](https://www.linkedin.com/in/raphael-kieling/)
+
 ## Professional Summary
 I was born in Capão da Canoa and I love development since I was 15 years old. I did win a software
 
