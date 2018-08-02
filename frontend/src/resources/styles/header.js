@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { colorWhite, mediaQueryMobile } from './variables';
+import BannerImage from '../images/Banner.svg'
 
 const HeaderWrapper = styled.header`
     width:100%;
@@ -8,6 +9,7 @@ const HeaderWrapper = styled.header`
     box-sizing: border-box;
     display:flex;
     justify-content: space-between;
+    background-image: ${props => props.theme.solid ? `url(${BannerImage});` : 'none'}
 `
 
 const HeaderNav = styled.nav`
@@ -19,11 +21,17 @@ const ListNav = styled.ul`
 `
 
 const ListNavItem = styled.li`
-    color: ${colorWhite};
+    cursor: pointer;
     font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     text-transform: uppercase;
-    margin-right:90px;
+    margin-right:50px;
+    color: ${colorWhite};
+
+    & > a{
+        text-decoration: none;
+        color: ${colorWhite};
+    }
 `
 
 const HeaderIconMenu = styled.img`

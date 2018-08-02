@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import { colorWhite, mediaQueryMobile, marginValue } from './variables'
+import { colorWhite, mediaQueryMobile, marginValue, textColor } from './variables'
 import BannerImage from '../images/Banner.svg'
 
 const TitleBanner = styled.p`
-    font-size: 64px;
+    font-size: 48px;
     color: ${colorWhite};
     font-family: 'Lato', sans-serif;
     font-weight: 600;
@@ -14,11 +14,13 @@ const TitleBanner = styled.p`
 `;
 
 const DescriptionBanner = styled.p`
-    font-size: 20px;
+    font-size: 18px;
     color: ${colorWhite};
     font-style: normal;
     font-weight: normal;
+    line-height: 30px;
     margin-top: 50px;
+    font-family: 'Lato'
 `
 
 const Banner = styled.div`
@@ -38,7 +40,7 @@ const InfoBannerContainer = styled.div`
 `;
 
 const InfoBanner = styled.div`
-    max-width: 960px;
+    max-width: 600px;
     text-align: left;
     padding: 10px;
 `
@@ -70,7 +72,7 @@ const ItemInfoProductContainer = styled.div`
 `
 
 const ItemInfoProduct = styled.div`
-    width: 250px;
+    width: 190px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +106,8 @@ const ItemInfoProductHeader = styled.div`
 
 const ItemInfoContent = styled.div`
     text-align: center;
-
+    color: ${textColor};
+    
     ${mediaQueryMobile(`
         text-align: left;
         padding: ${marginValue}

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colorPrimary, colorWhite, mediaQueryMobile } from './variables';
+import { colorPrimary, colorWhite } from './variables';
 
 const _button = `
     border:none;
