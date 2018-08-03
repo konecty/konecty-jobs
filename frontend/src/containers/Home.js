@@ -25,7 +25,7 @@ export default class Home extends Component {
             <App>
                 <Banner>
                     <Navbar />
-                    <Content main className="row">
+                    <Content className="row">
                         <div className="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-2">
                             <Title>Manage, get in touch and get more clients.</Title>
                             <Text>Konecty is a CRM Tool focused on offering users facility, flexibility and speed, allowing customization and development of new applications.</Text>

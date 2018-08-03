@@ -94,7 +94,7 @@ const Col = styled.div`
 `;
 
 const Content = styled.div`
-    margin-top: ${ props => props.main ? '9.5em' : '5em'};
+    margin-top: 5em;
 
     @media only screen and (max-width:62em){
         margin-top:       2em;
