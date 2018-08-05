@@ -1,6 +1,6 @@
 # Djian Lucca Stiegelmaier
 >**Email:** *djianlucca@outlook.com*  
->**Linkedin:** [*linkedin.com/djian*](https://www.linkedin.com/in/djian-lucca-stiegelmaier-83162b119/)   
+>**Linkedin:** [*linkedin.com/djian*](https://www.linkedin.com/in/djianLucca/)   
 >**Github:** [*djianLucca*](https://github.com/djianLucca)  
 
 **Torres, RS** - *Brazil*
