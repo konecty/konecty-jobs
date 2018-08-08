@@ -1,0 +1,224 @@
+body {
+	overflow-x: hidden;
+}
+
+p {
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+section {
+	padding: 50px 0;
+}
+
+/* bootstrap override */
+
+.container {
+	padding: 0 30px;
+}
+
+.input-group.input-inline {
+	margin-bottom: 1em;
+}
+
+.btn {
+	padding: 10px 20px;
+	font-weight: 600;
+	margin: 5px;
+}
+
+.btn>i {
+	margin: 0 10px;
+}
+
+.btn-primary {
+	background-color: rgb(75, 185, 228);
+	border: none;
+}
+
+.btn-phone {
+	margin-right: 2%;
+}
+
+.btn-email {
+	margin-left: 0%;
+}
+
+.text-primary {
+	color: rgb(75, 185, 228);
+}
+
+.icon-primary {
+	color: rgb(75, 185, 228);
+}
+
+.md-margin {
+	margin: 30px 0;
+}
+
+section h2.heading {
+	font-size: 40px;
+	margin-bottom: 35px;
+}
+
+section .subheading {
+	margin: 35px 0;
+}
+
+section h3.subheading {
+	font-size: 16px;
+	line-height: 1.7;
+	padding: 1px 4px;
+}
+
+.hideme{
+	opacity: 0;
+}
+
+@media (max-width: 417px){
+
+	.size-title {
+		text-align: center!important;
+	}
+	#get-touch{
+		text-align: center!important;
+	}
+	section h2.heading{
+		font-size: 53px;
+	}
+	section h3.subheading {
+		margin-left: 17px;
+	}
+}
+
+.size-title{
+	font-size: 3.3em;
+}
+
+.element-description h4 {
+	margin: 35px 0;
+}
+
+.fa-3x{
+	margin-top: 12px;
+}
+
+@media (min-width: 768px) {
+	section {
+		padding: 80px 0;
+	}
+}
+
+#navPrincipal {
+	background-color: rgb(39, 51, 62);
+}
+
+#navPrincipal .navbar-toggler {
+	font-size: 30px;
+	right: 0;
+	padding: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 0;
+}
+
+#navPrincipal .navbar-nav .nav-item .nav-link {
+	font-size: 90%;
+	font-weight: 400;
+	padding: 0.75em 0;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+@media (min-width: 992px) {
+	#navPrincipal {
+		padding: 12px 2px;
+		border: none;
+		background-color: transparent;
+	}
+	#navPrincipal .navbar-nav .nav-item .nav-link {
+		padding: 1.1em 1em !important;
+	}
+	#navPrincipal.navbar-shrink {
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: #212529;
+	}
+	#navPrincipal.navbar-shrink .navbar-brand {
+		font-size: 1.25em;
+		padding: 12px 0;
+	}
+}
+
+header.masthead {
+	text-align: center;
+	color: white;
+	background-image: url("../img/bg-konecty.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header.masthead .intro-text {
+	padding-top: 220px;
+	padding-bottom: 100px;
+	max-width: 495px;
+}
+
+@media only screen and (max-width: 800px) {
+	.buttons-center {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.buttons-center a.btn {
+	width: 200px;
+}
+
+.intro-text>p {
+	margin: 4em 0;
+}
+
+header.masthead .intro-text .intro-lead-in {
+	font-size: 32px;
+}
+
+@media (min-width: 768px) {
+	header.masthead .intro-text .intro-lead-in {
+		font-size: 40px;
+		line-height: 40px;
+		margin-bottom: 25px;
+	}
+}
+
+.service-heading {
+	margin: 15px 0;
+	text-transform: none;
+}
+
+.lg-container {
+	max-width: 630px;
+	/* min-width: 380px; */
+}
+
+.noresize {
+	resize: none;
+}

@@ -1,0 +1,28 @@
+.btn-phone {
+	margin-right: 2%;
+}
+
+.btn-email {
+	margin-left: 0%;
+}
+
+.btn {
+	padding: 10px 20px;
+	font-weight: 600;
+	margin: 5px;
+	>i {
+		margin: 0 10px;
+	}
+}
+
+.btn-primary {
+	background-color: $background_color_1;
+	border: none;
+}
+
+
+.buttons-center {
+	a.btn {
+		width: 200px;
+	}
+}

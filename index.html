@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Felipe Cabreira">
+    <title>Konecty - Online CRM Tool</title>
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" type="text/css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body id="mainBody">
+    <!-- Navigation -->
+    <nav class="navbar navbar-shrink navbar-expand-lg fixed-top" id="navPrincipal">
+        <a class="navbar-brand js-scroll-trigger" href="#mainBody">
+            <img src="img/logo.png" />
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarHorizontal"
+            aria-controls="navbarHorizontal" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarHorizontal">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a href="#product" class="nav-link js-scroll-trigger">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#company" class="nav-link js-scroll-trigger">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link js-scroll-trigger">Princing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link js-scroll-trigger">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text text-left">
+                <h2 class="intro-lead-in">
+                    Manage, get in touch and get more clients.
+                </h2>
+                <p>
+                    Konecty is a CRM Tool focused on offering users facility, flexibility, and speed, allowing customization and development
+                    of new applications.
+                </p>
+                <div class="buttons-center row">
+                    <a class="btn btn-primary col-10 col-xl-4">Watch Demo
+                        <i class="fa fa-play"></i>
+                    </a>
+                    <a class="btn btn-outline-secondary col-10 col-xl-4">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Services -->
+    <section id="services" class="hideme">
+        <div class="container element-description">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h2 class="heading">
+                        Complete tool, from A to Z
+                    </h2>
+                    <h3 class="subheading text-muted">
+                        Plan, execute and follow-up your marketing campaigns, generating demand for your products and services.
+                    </h3>
+                </div>
+            </div>
+            <div class="row text-center text-muted">
+                <div class="col-md-4">
+                    <div class="row">
+                        <span class="fa-3x col-2 col-xl-10">
+                            <i class="fa fa-map icon-primary"></i>
+                        </span>
+                        <div class="col-10">
+                            <h4 class="service-heading">Map of processes</h4>
+                            <p>Manage activities and processes organizing your project and finding the best way to optimize
+                                time and resources.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <span class="fa-3x col-2 col-xl-10">
+                            <i class="fa fa-bar-chart icon-primary"></i>
+                        </span>
+                        <div class="col-10">
+                            <h4 class="service-heading">Forecast &amp; Reports</h4>
+                            <p>Run your business with predictability based on the forecast coming from your sales pipeline and
+                                on the reports coming from your past sales experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <span class="fa-3x col-2 col-xl-10">
+                            <i class="fa fa-tv icon-primary"></i>
+                        </span>
+                        <div class="col-10">
+                            <h4 class="service-heading">Real-time view</h4>
+                            <p>Don't wait for tomorrow to make decisions! Get all this information in real-time, having the
+                                power to act fast and accurately at any time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="lg-container container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h2 class="heading size-title">Get in Touch</h2>
+                    <h3 class="subheading text-muted">Contact us and learn how to optimize your sales and organize all the contacts and conversions your campaign
+                        generates.
+                    </h3>
+                </div>
+                <div class="col-lg-12 text-left md-margin">
+                    <h3 class="text-dark">
+                        +55 51 3085 5151</h2>
+                        <p class="text-dark">contact@konect.com</p>
+                </div>
+                <div class="col-lg-12 text-left">
+                    <p class="text-muted">Leave us a message. We will get back to you shortly.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form novalidate="novalidate" id="contactForm" name="formPrincipal">
+                        <div class="form-group">
+                            <input class="form-control" id="name" type="text" placeholder="Name" data-validation-required-message="Name" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="input-group input-inline">
+                            <input class="form-control btn-phone" id="phone" type="tel" placeholder="Phone" data-validation-required-message="Phone"
+                                required="required">
+                            <p class="help-block text-danger"></p>
+                            <input class="form-control btn-email" id="email" type="email" placeholder="Email" data-validation-required-message="Email"
+                                required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control noresize" id="message" rows="5" placeholder="Message" data-validation-required-message="Message"
+                                required="required"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- IMPORT JS / JQUERY -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
