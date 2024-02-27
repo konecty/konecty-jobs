@@ -16,7 +16,7 @@ Valorizamos a diversidade e inclusão, convidando candidatos de todos os backgro
 
 Para se candidatar às nossas oportunidades, por favor, envie um pull-request para este repositório com uma solução para desafios ou uma de suas ideias incríveis. Estamos ansiosos para ver o seu talento em ação e como você pode contribuir para o nosso objetivo de criar a melhor ferramenta CRM Online de código aberto do mercado."
 
-## Vagas em aberto
+## Vagas abertas    
 
 **Desenvolvedor(a) Fullstack**
 
@@ -31,7 +31,7 @@ Para se candidatar às nossas oportunidades, por favor, envie um pull-request pa
 
 **Requisitos:**
 
-- Conhecimento em NodeJS, NextJS, React, TailwindCSS, Typescript, Jest e MongoDB.
+- Conhecimento em NodeJS, React, Typescript e MongoDB. É desejável ter conhecimento em NextJS, TailwindCSS e Jest, que são tecnologias também utilizadas diariamente nos projetos.
 - Capacidade de aprender rapidamente e adaptar-se a novas tecnologias.
 - Boas práticas de codificação, incluindo compreensão de padrões de projeto e teste unitário.
 - Forte habilidade de resolução de problemas e pensamento analítico.
