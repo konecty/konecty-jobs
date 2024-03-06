@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Catálogo de Produtos
 
-## Getting Started
+Este projeto consiste em uma aplicação web de catálogo de produtos desenvolvida utilizando Next.js com TypeScript para o front-end e Node.js para o back-end. Ele exibe uma lista de produtos em uma única página, com funcionalidades básicas de filtragem por categoria e pesquisa por nome do produto.
 
-First, run the development server:
+## 📋 Pré-requisitos
 
-```bash
+ - Next.js com TypeScript: Framework de React para renderização do lado do servidor.
+ - Tailwind CSS: Biblioteca de estilos utilitários para estilização rápida e flexível.
+ - Jest: Framework de teste de JavaScript.
+
+### 🔧 Instalação
+
+### Como Rodar o Projeto
+
+### Clonar o Repositório
+
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+### Instalar as Dependências
+
+Entre no diretório do projeto e instale as dependências utilizando o npm ou yarn:
+
+cd nome-do-repositorio
+
+npm install
+# ou
+yarn install
+
+#### ⚙️ Executando os testes
+
+Para rodar os testes unitários utilizando o Jest, utilize o seguinte comando:
+
+npm test
+# ou
+yarn test
+
+##### 📦 Implantação
+
+##Rodar o Servidor de Desenvolvimento
+Para rodar o servidor de desenvolvimento Next.js, utilize o seguinte comando:
+
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Após iniciar o servidor de desenvolvimento, você poderá acessar a aplicação em http://localhost:3000 no seu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+###### 🛠️ Construído com
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* [NEXT.JS](https://nextjs.org/) - O framework web usado
+* [NPM](https://www.npmjs.com/) - Gerente de Dependência
+* [Jest](https://jestjs.io/pt-BR/) - Usada para testes
+* [Tailwind CSS](https://v1.tailwindcss.com/) - Biblioteca de estilos utilitários para estilização rápida e flexível.

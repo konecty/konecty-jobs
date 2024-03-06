@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   const products = getAllProducts();
 
   return (
-    <div className="container mx-auto my-10">
+    <div className="my-10 sm:mx-16">
       <ProductList products={products} />
     </div>
   );

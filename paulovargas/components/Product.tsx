@@ -9,13 +9,13 @@ interface ProductProps {
   image: string;
 }
 
-const Product: React.FC<ProductProps> = ({ name, brand, price, image }) => {
+const Product: React.FC<ProductProps> = ({ name, brand, description, price, image }) => {
   return (
-    <div className="border p-4 rounded-xl bg-white max-w-40">
-      <img src={image} alt={name} className="w-full mb-2 max-w-40 max-h-24"/>
+    <div className="border p-4 rounded-xl bg-white">
+      <img src={image} alt={name} className="w-full mb-2 max-w-40 max-h-24 bg-white"/>
       <p className="font-semibold bg-white">{brand}</p>
-      <p className="bg-white">{name}</p>
-      <p className="bg-white">${price.toFixed(2)}</p>
+      <p className="bg-white text-gray-600">{description}</p>
+      <p className="font-semibold bg-white">${price.toFixed(2)}</p>
     </div>
   );
 };
