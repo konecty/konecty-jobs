@@ -3,7 +3,7 @@ import {render, screen} from "@testing-library/react"
 import Home from "@/app/page"
 
 describe("<Home/>", () => {
-    it("Testando se os produtos foram filtrados corretamente",() => {
+    it("Testando se os produtos estão vindo corretamente",() => {
         render(<Home/>)
 
         .then(content => {
