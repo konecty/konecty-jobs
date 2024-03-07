@@ -14,7 +14,7 @@ describe("<Home/>", () => {
             expect(produtos.length).toBe(30)
 
             //testando se o número de produtos na tela com o texto "pa" é o mesmo da base de dados
-            expect(produtos.filter(item => item.text.toLowerCase().match('pa'))).toBe(3)
+            expect(produtos.filter(item => item.text.toLowerCase().match('pa')).length).toBe(3)
         })
     })
 })
