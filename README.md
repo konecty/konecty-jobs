@@ -1,4 +1,4 @@
-![Konecty](logo-konecty.png)
+![Konecty](logo-konecty.png) 
 
 # Konecty Open source Tech Business Platform
 
