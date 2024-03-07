@@ -53,6 +53,6 @@
 >npm run dev
 >```
 
->Caso tudo estiver correto, você poderá acessar o link "http://localhost:3000" no seu navegador e verá a página principal da aplicação, onde poderá filtrar os produtos que por categoria e nome
+>Caso tudo estiver correto, você poderá acessar o link "http://localhost:3000" no seu navegador e verá a página principal da aplicação, onde poderá filtrar os produtos por categoria e nome
 
 </details>
