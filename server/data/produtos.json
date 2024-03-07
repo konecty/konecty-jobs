@@ -1,0 +1,182 @@
+[
+    {
+      "categoria": "Grãos",
+      "nome": "Arroz branco",
+      "preco": 4.32,
+      "imagem":"/images/arroz.jpg"
+    },
+    {
+      "categoria": "Grãos",
+      "nome": "Feijão carioca",
+      "preco": 5.67,
+      "imagem":"/images/feijao.jpg"
+    },
+    {
+      "categoria": "Laticínios",
+      "nome": "Leite integral",
+      "preco": 3.89,
+      "imagem":"/images/leite.jpg"
+    },
+    {
+      "categoria": "Proteínas",
+      "nome": "Ovos",
+      "preco": 8.45,
+      "imagem":"/images/ovos.jpg"
+    },
+    {
+      "categoria": "Proteínas",
+      "nome": "Carne bovina",
+      "preco": 36.78,
+      "imagem":"/images/carne.jpg"
+    },
+    {
+      "categoria": "Proteínas",
+      "nome": "Frango inteiro",
+      "preco": 9.32,
+      "imagem":"/images/frango.jpg"
+    },
+    {
+      "categoria": "Café da manhã",
+      "nome": "Pão francês",
+      "preco": 5.12,
+      "imagem":"/images/pao.jpg"
+    },
+    {
+      "categoria": "Café em grãos",
+      "nome": "Café moído",
+      "preco": 11.34,
+      "imagem":"/images/cafe.jpg"
+    },
+    {
+      "categoria": "Café da manhã",
+      "nome": "Açúcar cristal",
+      "preco": 2.98,
+      "imagem":"/images/acucar.jpg"
+    },
+    {
+      "categoria": "Óleos",
+      "nome": "Óleo de soja",
+      "preco": 6.54,
+      "imagem":"/images/oleo.jpg"
+    },
+    {
+      "categoria": "Laticínios",
+      "nome": "Manteiga",
+      "preco": 7.89,
+      "imagem":"/images/manteiga.jpg"
+    },
+    {
+      "categoria": "Laticínios",
+      "nome": "Queijo",
+      "preco": 28.76,
+      "imagem":"/images/queijo.jpg"
+    },
+    {
+      "categoria": "Frutas",
+      "nome": "Banana prata",
+      "preco": 3.45,
+      "imagem":"/images/banana.jpg"
+    },
+    {
+      "categoria": "Frutas",
+      "nome": "Maçã fuji",
+      "preco": 6.78,
+      "imagem":"/images/maca.jpg"
+    },
+    {
+      "categoria": "Legumes e verduras",
+      "nome": "Tomate",
+      "preco": 4.32,
+      "imagem":"/images/tomate.jpg"
+    },
+    {
+      "categoria": "Legumes e verduras",
+      "nome": "Cenoura",
+      "preco": 2.67,
+      "imagem":"/images/cenoura.jpg"
+    },
+    {
+      "categoria": "Legumes e verduras",
+      "nome": "Alface",
+      "preco": 1.89,
+      "imagem":"/images/alface.jpg"
+    },
+    {
+      "categoria": "Bebidas",
+      "nome": "Cerveja",
+      "preco": 3.45,
+      "imagem":"/images/cerveja.jpg"
+    },
+    {
+      "categoria": "Bebidas",
+      "nome": "Refrigerante",
+      "preco": 4.98,
+      "imagem":"/images/cola.jpg"
+    },
+    {
+      "categoria": "Bebidas",
+      "nome": "Suco",
+      "preco": 5.76,
+      "imagem":"/images/suco.jpg"
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Sabão em pó",
+      "preco": 8.54,
+      "imagem":"/images/sabao.jpg"
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Amaciante",
+      "preco": 2.34,
+      "imagem":"/images/amaciante.jpg"
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Papel higiênico",
+      "preco": 12.45,
+      "imagem":"/images/papel.jpg"
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Sabonete",
+      "preco": 1.98,
+      "imagem":"/images/sabonete.jpg"
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Shampoo",
+      "preco": 9.76,
+      "imagem":"/images/shampoo.jpg"
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Condicionador",
+      "preco": 10.34,
+      "imagem":"/images/condicionador.jpg"
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Desodorante",
+      "preco": 7.89,
+      "imagem":"/images/desodorante.jpg"
+    },
+    {
+      "categoria": "Higiene",
+      "nome": "Pasta de dente",
+      "preco": 4.56,
+      "imagem":"/images/pasta.jpg"
+    },
+    {
+      "categoria": "Iluminação",
+      "nome": "Lâmpada",
+      "preco": 6.78,
+      "imagem":"/images/lampada.jpg"
+    },
+    {
+      "categoria": "Iluminação",
+      "nome": "Vela",
+      "preco": 2.34,
+      "imagem":"/images/vela.jpg"
+    }
+]  
