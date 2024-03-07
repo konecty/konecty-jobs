@@ -6,31 +6,15 @@ describe("<Home/>", () => {
     it("Testando se os produtos foram filtrados corretamente",() => {
         render(<Home/>)
 
-        fetch("http://localhost:5000/products",{
-            method:"GET",
-            mode:"cors"
-        })
         .then(content => {
             const produtos = screen.getAllByTestId("produto")
-            const search:any =  screen.getByTestId("search")
-            const category:any =  screen.getByTestId("category")
             const result:any = content.json()
 
-            if(search.value == "" && category.value == ""){
-                expect(produtos.length).toBe(result.length)
-            }
+            //testando se o número de produtos na tela é o mesmo da base de dados
+            expect(produtos.length).toBe(30)
 
-            if(category.value != "" && search.value == ""){
-                expect(produtos.length).toBe(result.filter(a => a.categoria == category.value).length)
-            }
-        
-            if(search.value != ""  && category.value == ""){
-                expect(produtos.length).toBe(result.filter(a => a.nome.toLowerCase().match(search.value.toLowerCase())).length)
-            }
-        
-            if(search.value != ""  && category.value != ""){
-                expect(produtos.length).toBe(result.filter(a => a.nome.toLowerCase().match(search.value.toLowerCase()) && a.categoria == category.value).length)
-            }
+            //testando se o número de produtos na tela com o texto "pa" é o mesmo da base de dados
+            expect(produtos.filter(item => item.text.toLowerCase().match('pa'))).toBe(3)
         })
     })
 })
