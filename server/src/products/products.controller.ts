@@ -4,6 +4,10 @@ import { ProductsService } from './products.service';
 @Controller('products')
 export class ProductsController {
   constructor(private readonly productsService: ProductsService) {}
+  @Get()
+  async findProducts(@Query() queryParams: any) {
+    return await this.productsService.searchProducts(queryParams);
+  }
 
   @Get()
   async findAll() {
@@ -12,11 +16,7 @@ export class ProductsController {
 
   @Get(':id')
   async findOne(@Param('id') id: string) {
+    console.log(id);
     return await this.productsService.findOne(+id);
-  }
-
-  @Get()
-  async findProducts(@Query() queryParams: any) {
-    return await this.productsService.searchProducts(queryParams);
   }
 }

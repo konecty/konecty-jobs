@@ -1,27 +1,18 @@
 import { Injectable } from '@nestjs/common';
-import { promises as fs } from 'fs';
-import * as path from 'path';
+import { productsdata } from './productsdb';
 
 @Injectable()
 export class ProductsService {
-  private async readProductsFile() {
-    const filePath = path.resolve(__dirname, './products.json');
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(fileContent);
-  }
-
   async findAll() {
-    return await this.readProductsFile();
+    return productsdata;
   }
 
   async findOne(id: number) {
-    const products = await this.readProductsFile();
-    return products.find((product: { id: number }) => product.id === id);
+    return productsdata.find((product: { id: number }) => product.id === id);
   }
 
   async searchProducts(queryParams: any) {
-    const products = await this.readProductsFile();
-    let filteredProducts = products;
+    let filteredProducts = productsdata;
 
     if (queryParams.name) {
       filteredProducts = filteredProducts.filter((product: { name: string }) =>
@@ -53,7 +44,7 @@ export class ProductsService {
     if (queryParams.brand) {
       filteredProducts = filteredProducts.filter(
         (product: { brand: string }) =>
-          product.brand.toLowerCase() === queryParams.type.toLowerCase(),
+          product.brand.toLowerCase() === queryParams.brand.toLowerCase(),
       );
     }
 
