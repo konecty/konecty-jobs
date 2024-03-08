@@ -13,4 +13,9 @@ export class ProductsService {
   async findAll() {
     return await this.readProductsFile();
   }
+
+  async findOne(id: number) {
+    const products = await this.readProductsFile();
+    return products.find((product: { id: number }) => product.id === id);
+  }
 }
