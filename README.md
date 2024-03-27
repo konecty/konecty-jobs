@@ -14,11 +14,50 @@ Valorizamos a diversidade e inclusão, convidando candidatos de todos os backgro
 - **Ambiente Diversificado:** Estamos comprometidos com a criação de um ambiente de trabalho inclusivo e acolhedor para todos.
 - **Iniciantes São bem vindos:** Encorajamos candidatos que estão começando suas carreiras a se candidatarem. Oferecemos treinamento, mentorias e oportunidades para que você cresça profissionalmente dentro de nossa equipe.
 
-Para se candidatar às nossas oportunidades, por favor, envie um pull-request para este repositório com uma solução para desafios ou uma de suas ideias incríveis. Estamos ansiosos para ver o seu talento em ação e como você pode contribuir para o nosso objetivo de criar a melhor ferramenta CRM Online de código aberto do mercado."
 
-## Vagas abertas    
+## Vagas abertas
 
-**Desenvolvedor(a) Fullstack**
+### Pessoa Especialista em DevOps - Foco em Kubernetes e CI/CD
+
+**Localização:** Remoto
+
+
+**Visão Geral da Oportunidade:**
+
+Na Konecty Informática Ltda, estamos ampliando nossa equipe e buscamos uma pessoa especialista em DevOps que compartilhe de nossa paixão por inovação, automação e tecnologia. Com um enfoque especial em Kubernetes, ArgoCD, GitOps, Docker, GitHub Actions, Grafana, Prometheus, Jaeger e MongoDB, esta posição é uma convocação para pessoas que estão começando sua jornada profissional ou que desejam aprofundar seus conhecimentos em um ambiente que valoriza a aprendizagem contínua, a inclusão e a diversidade.
+
+
+**Responsabilidades Principais:**
+
+- Gerenciar e otimizar processos de orquestração de contêineres com Kubernetes.
+- Desenvolver e manter pipelines de integração e entrega contínua (CI/CD) utilizando ArgoCD e GitHub Actions.
+- Implementar estratégias de GitOps para uma gestão eficaz de infraestrutura e aplicações.
+- Administrar ambientes baseados em contêineres com Docker, promovendo consistência e eficiência.
+- Monitorar a performance e a saúde das aplicações e da infraestrutura usando ferramentas como Grafana, Prometheus e Jaeger.
+- Gerenciar bases de dados MongoDB, Redis e Cassandra assegurando sua robustez e disponibilidade.
+
+
+**Qualificações Desejadas:**
+
+- Familiaridade com Kubernetes, ArgoCD, GitOps, Docker, GitHub Actions, Grafana, Prometheus, Jaeger e MongoDB.
+- Disposição para aprender em um ritmo acelerado e se adaptar a novas tecnologias.
+- Habilidade para trabalhar de forma colaborativa em um ambiente diversificado e inclusivo.
+- Capacidade de comunicação eficaz e construtiva, valorizando a diversidade de pensamentos e soluções.
+
+
+**O Que Oferecemos:**
+
+- Um papel remoto com flexibilidade, permitindo que você trabalhe de onde se sentir mais confortável e produtivo(a).
+- Um ambiente de trabalho seguro, acolhedor e inclusivo, onde você pode crescer profissionalmente.
+- Acesso a mentoria e oportunidades de desenvolvimento para aprimorar suas habilidades em tecnologias emergentes.
+
+
+**Como Aplicar:**
+
+Para se candidatar, envie seu currículo e uma carta de apresentação (opcional) que destaque sua paixão por DevOps e tecnologia, e como você pode contribuir para um ambiente de trabalho mais diverso e inclusivo, para: [hr@konecty.com](mailto:hr@konecty.com).
+
+
+### Pessoa Desenvolvedora Fullstack
 
 **Localização**: Remoto
 
@@ -38,4 +77,4 @@ Para se candidatar às nossas oportunidades, por favor, envie um pull-request pa
 
 **Desafio Técnico:**
 
-Para participar do processo seletivo, leia a especificação disponível em [fullstack/desafio.md](fullstack/desafio.md) neste repositório.
+Para participar do processo seletivo, leia a especificação disponível em [fullstack/desafio.md](fullstack/desafio.md) neste repositório, e envie um pull-request para este repositório com uma solução para o desafio ou uma de suas ideias incríveis. Estamos ansiosos para ver o seu talento em ação e como você pode contribuir para o nosso objetivo de criar a melhor plataforma de código aberto do mercado.
