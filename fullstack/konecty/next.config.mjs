@@ -1,6 +1,11 @@
 const nextConfig = {
   images: {
-    domains: ["image.goat.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "image.goat.com",
+      },
+    ],
   },
 };
 
