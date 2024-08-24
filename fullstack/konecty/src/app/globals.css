@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F4F4F4;
+  /* Define a cor de fundo para todo o corpo */
+  font-family: 'Inter', sans-serif;
+  /* Ou a fonte que você está utilizando */
+}
+
+#root,
+#__next {
+  height: 100%;
+}
