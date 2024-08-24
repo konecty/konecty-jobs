@@ -6,17 +6,17 @@ interface CategoryFilterProps {
   handleBrandClick: (brand: string) => void;
 }
 
-const CategoryFilter: React.FC<CategoryFilterProps> = ({
+const CategoryFilter = ({
   brandNames,
   selectedBrand,
   handleBrandClick,
-}) => {
+}: CategoryFilterProps): React.JSX.Element => {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:flex lg:space-x-4 gap-2 lg:gap-0">
+    <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:flex lg:gap-0 lg:space-x-4">
       {brandNames.map((brand, index) => (
         <button
           key={index}
-          className={`px-4 py-2 rounded-full font-inter text-[16px] font-medium leading-[19.36px] text-left ${
+          className={`rounded-[32px] px-4 py-2 font text-base font-medium leading-[19.36px] ${
             selectedBrand === brand
               ? "bg-[#51BAE8] text-white"
               : "bg-white text-black"

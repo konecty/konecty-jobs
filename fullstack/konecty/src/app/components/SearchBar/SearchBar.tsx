@@ -1,19 +1,22 @@
 import React from "react";
 
 interface SearchBarProps {
-  searchTerm: string;
-  setSearchTerm: (term: string) => void;
+  search: string;
+  setSearch: (term: string) => void;
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, setSearchTerm }) => {
+const SearchBar = ({
+  search,
+  setSearch,
+}: SearchBarProps): React.JSX.Element => {
   return (
     <div className="mt-[45px]">
       <input
         type="text"
         placeholder="🔍 Buscar produto"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="md:w-1/3 w-full  px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        className="w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-500 md:w-1/3"
       />
     </div>
   );

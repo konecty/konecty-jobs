@@ -4,7 +4,7 @@ interface ErrorMessageProps {
   message: string;
 }
 
-const ErrorMessage: React.FC<ErrorMessageProps> = ({ message }) => {
+const ErrorMessage = ({ message }: ErrorMessageProps): React.JSX.Element => {
   return (
     <div className="flex justify-center">
       <p className="font-montserrat font-semibold">{message}</p>

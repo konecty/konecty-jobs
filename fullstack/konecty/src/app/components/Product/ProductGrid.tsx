@@ -6,7 +6,7 @@ interface ProductGridProps {
   sneakers: ISneaker[];
 }
 
-const ProductGrid: React.FC<ProductGridProps> = ({ sneakers }) => {
+const ProductGrid = ({ sneakers }: ProductGridProps): React.JSX.Element => {
   return (
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {sneakers.map((sneaker, key) => (

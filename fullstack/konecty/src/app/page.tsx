@@ -5,13 +5,16 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import CategoryFilter from "@/app/components/CategoryFilter/CategoryFilter";
 import ProductGrid from "@/app/components/Product/ProductGrid";
 import Loading from "@/app/components/Loading/Loading";
+import { Montserrat } from "next/font/google";
 import ErrorMessage from "@/app/components/ErrorMessage/ErrorMessage";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const SneakersPage = () => {
   const [sneakers, setSneakers] = useState<ISneaker[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const [searchTerm, setSearchTerm] = useState<string>("");
+  const [search, setSearch] = useState<string>("");
   const [brandNames, setBrandNames] = useState<string[]>([]);
   const [selectedBrand, setSelectedBrand] = useState<string>("Todos");
 
@@ -46,20 +49,22 @@ const SneakersPage = () => {
     return sneakers.filter((sneaker) => {
       const matchesSearch = sneaker.name
         .toLowerCase()
-        .includes(searchTerm.toLowerCase());
+        .includes(search.toLowerCase());
       const matchesBrand =
         selectedBrand === "Todos" || sneaker.brand_name === selectedBrand;
       return matchesSearch && matchesBrand;
     });
-  }, [sneakers, searchTerm, selectedBrand]);
+  }, [sneakers, search, selectedBrand]);
 
   if (loading) return <Loading />;
 
   return (
     <div className="container mx-auto w-full space-y-8 bg-[#F4F4F4] p-6">
-      <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <SearchBar search={search} setSearch={setSearch} />
       <div>
-        <h1 className="font-montserrat mb-[7px] text-left text-[30px] font-extrabold leading-[36.57px]">
+        <h1
+          className={`mb-[7px] text-left text-[30px] font-extrabold leading-[36.57px] ${montserrat.className}`}
+        >
           Tênis
         </h1>
 

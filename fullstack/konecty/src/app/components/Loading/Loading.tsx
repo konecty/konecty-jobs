@@ -1,6 +1,6 @@
 import React from "react";
 
-const Loading: React.FC = () => {
+const Loading = (): React.JSX.Element => {
   return (
     <div className="flex h-screen items-center justify-center space-x-2 bg-[#F2F2F2]">
       <span className="sr-only">Loading...</span>
