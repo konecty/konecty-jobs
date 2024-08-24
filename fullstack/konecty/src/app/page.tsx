@@ -5,10 +5,7 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import CategoryFilter from "@/app/components/CategoryFilter/CategoryFilter";
 import ProductGrid from "@/app/components/Product/ProductGrid";
 import Loading from "@/app/components/Loading/Loading";
-import { Montserrat } from "next/font/google";
 import ErrorMessage from "@/app/components/ErrorMessage/ErrorMessage";
-
-const montserrat = Montserrat({ subsets: ["latin"] });
 
 const SneakersPage = () => {
   const [sneakers, setSneakers] = useState<ISneaker[]>([]);
@@ -63,7 +60,7 @@ const SneakersPage = () => {
       <SearchBar search={search} setSearch={setSearch} />
       <div>
         <h1
-          className={`mb-[7px] text-left text-[30px] font-extrabold leading-[36.57px] ${montserrat.className}`}
+          className={`font-montserrat mb-[7px] text-left text-[30px] font-extrabold leading-[36.57px]`}
         >
           Tênis
         </h1>

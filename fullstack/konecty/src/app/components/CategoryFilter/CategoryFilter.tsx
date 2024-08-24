@@ -16,7 +16,7 @@ const CategoryFilter = ({
       {brandNames.map((brand, index) => (
         <button
           key={index}
-          className={`rounded-[32px] px-4 py-2 font text-base font-medium leading-[19.36px] ${
+          className={`font-inter-medium rounded-[32px] px-4 py-2 text-base font-medium leading-[19.36px] ${
             selectedBrand === brand
               ? "bg-[#51BAE8] text-white"
               : "bg-white text-black"
